@@ -12,7 +12,7 @@ enum Theme:String{
     
     var accentColor: Color{
         switch self{
-        case .sky: return .white
+        case .sky: return .black
         }
     }
     
