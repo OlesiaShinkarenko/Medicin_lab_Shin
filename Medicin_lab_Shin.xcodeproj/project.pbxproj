@@ -16,6 +16,7 @@
 		F734BAC72B0592DC005E4F63 /* NameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734BAC62B0592DC005E4F63 /* NameHeader.swift */; };
 		F734BACA2B059438005E4F63 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734BAC92B059438005E4F63 /* Theme.swift */; };
 		F734BACC2B0595FE005E4F63 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F734BACB2B0595FE005E4F63 /* CardModel.swift */; };
+		F7AB38B12B05A12900BDD5A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB38B02B05A12900BDD5A2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F734BAC62B0592DC005E4F63 /* NameHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameHeader.swift; sourceTree = "<group>"; };
 		F734BAC92B059438005E4F63 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F734BACB2B0595FE005E4F63 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F7AB38B02B05A12900BDD5A2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				F734BAC82B05940D005E4F63 /* Models */,
-				F734BAC62B0592DC005E4F63 /* NameHeader.swift */,
 				F734BAB12B05888F005E4F63 /* Medicin_lab_Shin */,
 				F734BAB02B05888F005E4F63 /* Products */,
 			);
@@ -63,12 +64,14 @@
 		F734BAB12B05888F005E4F63 /* Medicin_lab_Shin */ = {
 			isa = PBXGroup;
 			children = (
+				F734BAC62B0592DC005E4F63 /* NameHeader.swift */,
 				F734BAB22B05888F005E4F63 /* Medicin_lab_ShinApp.swift */,
 				F734BAB42B05888F005E4F63 /* ContentView.swift */,
 				F734BAC02B058AA5005E4F63 /* HeaderView.swift */,
 				F734BAB62B058890005E4F63 /* Assets.xcassets */,
 				F734BAB82B058890005E4F63 /* Preview Content */,
 				F734BAC22B058F3E005E4F63 /* CircleImage.swift */,
+				F7AB38B02B05A12900BDD5A2 /* CardView.swift */,
 			);
 			path = Medicin_lab_Shin;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				F734BACC2B0595FE005E4F63 /* CardModel.swift in Sources */,
 				F734BACA2B059438005E4F63 /* Theme.swift in Sources */,
 				F734BAC12B058AA5005E4F63 /* HeaderView.swift in Sources */,
+				F7AB38B12B05A12900BDD5A2 /* CardView.swift in Sources */,
 				F734BAB32B05888F005E4F63 /* Medicin_lab_ShinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

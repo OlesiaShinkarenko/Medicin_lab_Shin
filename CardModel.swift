@@ -13,4 +13,12 @@ struct CardModel{
     var image:String
     var data:String
     var time:String
+    var theme:Theme
+}
+
+extension CardModel{
+    static let sampleData: [CardModel] =
+    [
+        CardModel(name: "Dr. Imran Syahir", post: "General Doctor", image: "image", data: "Sunday, 12 June", time: "11:00 - 12:00 AM", theme: .sky)
+    ]
 }
